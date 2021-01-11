@@ -14,7 +14,7 @@ void loginYuzu()
 	system(globals::killsteam);
 	system(globals::killsteamservice);
 	system(globals::killsteamwebhelper);
-	system("START \"Steam\" \"C:\\Program Files (x86)\\Steam\\steam.exe\" /min -login fifth_chance_ Windowsphone12345678@");
+	system("START \"Steam\" \"C:\\Program Files (x86)\\Steam\\steam.exe\" /min -login username password");
 }
 
 void loginaccount2()
